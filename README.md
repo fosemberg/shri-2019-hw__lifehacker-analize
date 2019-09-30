@@ -8,11 +8,6 @@
 - [Performance](files/Profile-20190930T072356.json)
 
   ### описание неоптимальных мест при загрузке ресурсов со скриншотами
-  
-  
-  
-  ### времена в миллисекундах от начала навигации до требуемых событий
-
  
 - дублирование ресурсов
   
@@ -24,20 +19,7 @@
 | [adfox-adx-stub.js](https://yastatic.net/pcode/adfox/adfox-adx-stub.js) | 5 |
 | [zrt_lookup.html](https://googleads.g.doubleclick.net/pagead/html/r20190924/r20190131/zrt_lookup.html) | 3 |
 | [render.html](https://yastatic.net/safeframe-bundles/0.69/1-1-0/render.html) | 2 |
-| [integrator.js?domain=lifehacker.ru](https://adservice.google.com/adsid/integrator.js?domain=lifehacker.ru) | 3 |
-
-  ### объёмы неиспользованных в ходе загрузки страницы CSS и JS в килобайтах
-  
-![](media/coverage.png)
-
-| type | amount, KB |
-|---|---|
-| JS | 2202 |
-| CSS | 255 |
-
-В процентном соотношение не используется 59%
-  
-  
+| [integrator.js?domain=lifehacker.ru](https://adservice.google.com/adsid/integrator.js?domain=lifehacker.ru) | 3 |  
   
   - медленно загружающиеся ресурсы
   - ресурсы, блокирующие загрузку
@@ -54,17 +36,21 @@
   - измерить в килобайтах объём неиспользованного CSS в ходе загрузки страницы
   - измерить в килобайтах объём неиспользованного JS в ходе загрузки страницы
   - (как работать со вкладкой Coverage: https://developers.google.com/web/tools/chrome-devtools/coverage)
-## в результате выполнения домашнего задания должны быть
-  - + два сохранённых профиля (Network и Performance)
-  - описание неоптимальных мест при загрузке ресурсов со скриншотами
-  - времена в миллисекундах от начала навигации до требуемых событий
-  - + объёмы неиспользованных в ходе загрузки страницы CSS и JS в килобайтах
 
-### Большое число ресурсов, подключаются  синхронно:
+#### Большое число ресурсов, подключаются  синхронно:
 
 ![](media/sources_links.png)
 
-------------
+  ### времена в миллисекундах от начала навигации до требуемых событий
+  
 
-## Бонус
-Включить замедление CPU 4x slowdown и эмуляцию сети Slow 3G. Сделать такой же анализ.
+  ### объёмы неиспользованных в ходе загрузки страницы CSS и JS в килобайтах
+  
+![](media/coverage.png)
+
+| type | amount, KB |
+|---|---|
+| JS | 2202 |
+| CSS | 255 |
+
+В процентном соотношение не используется 59%
