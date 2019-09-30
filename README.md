@@ -28,10 +28,20 @@
 | [adfox-adx-stub.js](https://yastatic.net/pcode/adfox/adfox-adx-stub.js) | 5 |
 | [zrt_lookup.html](https://googleads.g.doubleclick.net/pagead/html/r20190924/r20190131/zrt_lookup.html) | 3 |
 | [render.html](https://yastatic.net/safeframe-bundles/0.69/1-1-0/render.html) | 2 |
-|  |  |
-|  |  |
+| [integrator.js?domain=lifehacker.ru](https://adservice.google.com/adsid/integrator.js?domain=lifehacker.ru) | 3 |
 
   - лишний размер ресурса
+  
+![](media/coverage.png)
+
+| type | amount, Bytes |
+|---|---|
+| JS | 1386 |
+| CSS | 505 |
+| JS + CSS | 1891 |
+
+В процентном соотношение не используется 59%
+  
   - медленно загружающиеся ресурсы
   - ресурсы, блокирующие загрузку
   - что-то ещё
@@ -52,10 +62,6 @@
   - описание неоптимальных мест при загрузке ресурсов со скриншотами
   - времена в миллисекундах от начала навигации до требуемых событий
   - объёмы неиспользованных в ходе загрузки страницы CSS и JS в килобайтах
-
-### Coverage:
-
-![](media/coverage.png)
 
 ### Большое число ресурсов, подключаются  синхронно:
 
