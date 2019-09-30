@@ -1,5 +1,7 @@
 ## Анализ сайта lifehacker.ru
 
+[ТЗ](TASK.md)
+
 ### Coverage:
 
 ![](media/coverage.png)
