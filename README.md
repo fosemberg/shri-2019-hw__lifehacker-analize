@@ -34,11 +34,10 @@
   
 ![](media/coverage.png)
 
-| type | amount, Bytes |
+| type | amount, KB |
 |---|---|
-| JS | 1386 |
-| CSS | 505 |
-| JS + CSS | 1891 |
+| JS | 2202 |
+| CSS | 255 |
 
 В процентном соотношение не используется 59%
   
