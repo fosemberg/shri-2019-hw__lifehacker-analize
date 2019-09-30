@@ -2,12 +2,12 @@
 
 [ТЗ](TASK.md)
 
-  ### два сохранённых профиля (Network и Performance)
+### два сохранённых профиля (Network и Performance)
   Бэкап профилей:
 - [Network har file](files/lifehacker.ru.har)
 - [Performance](files/Profile-20190930T072356.json)
 
-  ### описание неоптимальных мест при загрузке ресурсов со скриншотами
+### описание неоптимальных мест при загрузке ресурсов со скриншотами
  
 - дублирование ресурсов
   
@@ -20,31 +20,24 @@
 | [zrt_lookup.html](https://googleads.g.doubleclick.net/pagead/html/r20190924/r20190131/zrt_lookup.html) | 3 |
 | [render.html](https://yastatic.net/safeframe-bundles/0.69/1-1-0/render.html) | 2 |
 | [integrator.js?domain=lifehacker.ru](https://adservice.google.com/adsid/integrator.js?domain=lifehacker.ru) | 3 |  
-  
-  - медленно загружающиеся ресурсы
-  - ресурсы, блокирующие загрузку
-  - что-то ещё
-  - при описании найденных неоптимальных мест делать скриншот соответствующего участка панели Network, чтобы было понятно, что именно имеется в виду
-  - (как работать со вкладкой Network: https://developers.google.com/web/tools/chrome-devtools/network)
-- на вкладке Performance
-  - записать и сохранить в файл профиль загрузки страницы
-  - измерить время в миллисекундах от начала навигации до событий First Paint, First Meaningful Paint, DOM Content Loaded, Load
-  - измерить, сколько времени в миллисекундах тратится на разные этапы обработки документа (Loading, Scripting, Rendering, Painting)
-  - (как работать со вкладкой Performance: https://developers.google.com/web/tools/chrome-devtools/evaluate-performance)
-- на вкладке Coverage
-  - сохранить скриншот вкладки после загрузки страницы
-  - измерить в килобайтах объём неиспользованного CSS в ходе загрузки страницы
-  - измерить в килобайтах объём неиспользованного JS в ходе загрузки страницы
-  - (как работать со вкладкой Coverage: https://developers.google.com/web/tools/chrome-devtools/coverage)
 
-#### Большое число ресурсов, подключаются  синхронно:
+Большое число ресурсов, подключаются  синхронно:
 
 ![](media/sources_links.png)
 
-  ### времена в миллисекундах от начала навигации до требуемых событий
-  
+### времена в миллисекундах от начала навигации до требуемых событий
 
-  ### объёмы неиспользованных в ходе загрузки страницы CSS и JS в килобайтах
+| Событие | времся, мс |
+|---|---|
+| First Paint | 4 307 |
+| First Contentful Paint | 4 307 |
+| First Meaningful Paint | 4 523 |
+| DOM Content Loaded Event | 13 674 |
+| OnLoad Event | 39 506 |
+
+![](media/performance_loading.png)
+
+### объёмы неиспользованных в ходе загрузки страницы CSS и JS в килобайтах
   
 ![](media/coverage.png)
 
