@@ -2,10 +2,17 @@
 
 [ТЗ](TASK.md)
 
-### два сохранённых профиля (Network и Performance)
-  Бэкап профилей:
-- [Network har file](files/lifehacker.ru.har)
-- [Performance](files/Profile-20190930T072356.json)
+### Сохранённые профили (Network и Performance)
+
+Бэкап профилей:
+
+- [Network har file](files/desktop/lifehacker.ru.har)
+- [Performance](files/desktop/Profile-20190930T072356.json)
+
+Бэкап профилей c тротлингом (CPU 4x slowdown и эмуляцию сети Slow 3G):
+
+- [Network har file](files/with_throttling/lifehacker.ru.har)
+- [Performance](files/with_throttling/Profile-20191005T162330.json)
 
 ### описание неоптимальных мест при загрузке ресурсов со скриншотами
  
