@@ -28,6 +28,7 @@
 ![](media/not_minified_files.png)
 
 пример не минифцированных ресурсов:
+
 - https://lifehacker.ru/
 - https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,300i,400,400i,500,500i,700,900&subset=cyrillic
 - https://lifehacker.ru/wp-content/plugins/lh-appbox/css/styles.min.css?ver=17
@@ -35,6 +36,22 @@
 - https://lifehacker.ru/wp-content/plugins/lh-mumigrate/static/public/css/main.css?ver=5.1.2
 - https://lifehacker.ru/wp-content/plugins/lh-spoilers/inc/bbspoiler.css?ver=5.1.2
 - https://lifehacker.ru/wp-content/plugins/responsive-lightbox/assets/nivo/themes/default/default.css?ver=1.7.2
+
+#### Комментарии в коде реурсов
+
+Также в ресурсах присутвуют закомменченные участки кода, которые хороше бы вырезать при сборке
+
+![](media/comments_in_resources.png)
+
+пример ресурсов с комментариями:
+
+- https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,300i,400,400i,500,500i,700,900&subset=cyrillic
+- https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+- https://lifehacker.ru/wp-content/plugins/lh-deal/assets/public/outer.css?ver=45
+- https://lifehacker.ru/wp-content/plugins/lh-slider/static/public/all.min.css?ver=1.0.0
+- https://lifehacker.ru/wp-content/plugins/responsive-lightbox/assets/nivo/nivo-lightbox.min.css?ver=1.7.2
+- https://lifehacker.ru/wp-content/plugins/responsive-lightbox/assets/nivo/themes/default/default.css?ver=1.7.2
+- https://lifehacker.ru/wp-content/themes/lifehacker/static/styles/vendors.min.css?ver=1.3.15
 
 #### Синхронное подключение ресурсов 
 
