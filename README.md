@@ -9,7 +9,7 @@
 
 ### описание неоптимальных мест при загрузке ресурсов со скриншотами
  
-- дублирование ресурсов
+#### дублирование ресурсов
   
 | ресурс | кол-во |
 |---|---|
@@ -21,11 +21,28 @@
 | [render.html](https://yastatic.net/safeframe-bundles/0.69/1-1-0/render.html) | 2 |
 | [integrator.js?domain=lifehacker.ru](https://adservice.google.com/adsid/integrator.js?domain=lifehacker.ru) | 3 |  
 
-Большое число ресурсов, подключаются  синхронно:
+#### Не мифицированные файлы
+
+Некоторые файлы не минфицированны, а некоторые еще и содержат постфикс: min
+
+![](media/not_minified_files.png)
+
+пример не минифцированных ресурсов:
+- https://lifehacker.ru/
+- https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,300i,400,400i,500,500i,700,900&subset=cyrillic
+- https://lifehacker.ru/wp-content/plugins/lh-appbox/css/styles.min.css?ver=17
+- https://lifehacker.ru/wp-content/plugins/lh-deal/assets/public/outer.css?ver=45
+- https://lifehacker.ru/wp-content/plugins/lh-mumigrate/static/public/css/main.css?ver=5.1.2
+- https://lifehacker.ru/wp-content/plugins/lh-spoilers/inc/bbspoiler.css?ver=5.1.2
+- https://lifehacker.ru/wp-content/plugins/responsive-lightbox/assets/nivo/themes/default/default.css?ver=1.7.2
+
+#### Синхронное подключение ресурсов 
+
+Большое число ресурсов, подключаются синхронно
 
 ![](media/sources_links.png)
 
-### времена в миллисекундах от начала навигации до требуемых событий
+### Временя в миллисекундах от начала навигации до требуемых событий
 
 | Событие | времся, мс |
 |---|---|
