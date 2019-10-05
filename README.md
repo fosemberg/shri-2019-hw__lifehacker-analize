@@ -21,6 +21,30 @@
 | [render.html](https://yastatic.net/safeframe-bundles/0.69/1-1-0/render.html) | 2 |
 | [integrator.js?domain=lifehacker.ru](https://adservice.google.com/adsid/integrator.js?domain=lifehacker.ru) | 3 |  
 
+#### Большое разрешение картинок
+
+Некоторые картинки прилетают в более большом формате, чем могли бы быть
+
+Например, картинка: Nethauz_1569882729-800x400.jpg
+![](media/Nethauz_1569882729-800x400.jpg)
+
+Прилетает с разрешением: 800x400, хотя открывал страничку я изначально на небольшом экране, и div, в который эта картинка должна прилететь имеет размеры: 319x159.5 и можно было спокойно кинуть картинку с разрешением: 400х200, вместо 800х400.
+
+![](media/big_image.png)
+
+![](media/big_image_network.png)
+
+тоже самое касается других обложек статей:
+
+- https://cdn.lifehacker.ru/wp-content/uploads/2019/08/business_cover_1566464714-800x400.jpg
+- https://cdn.lifehacker.ru/wp-content/uploads/2019/10/8-igr-v-kotorye-polzovateli-iOS-i-Android-mogut-igrat-vmeste_1570198951-800x400.jpg
+- https://cdn.lifehacker.ru/wp-content/uploads/2018/11/IMG_1975_1542804330-800x400.jpg
+- https://cdn.lifehacker.ru/wp-content/uploads/2018/08/CHto-nuzhno-uchest-dlya-obustrojstva-idealnogo-sanuzla_1533944636-800x400.jpg
+- https://cdn.lifehacker.ru/wp-content/uploads/2019/10/eda_budushchego_1570198032-800x400.jpg
+- https://lifehacker.ru/wp-content/uploads/2019/08/B1_1567153464-630x315.jpg
+- https://cdn.lifehacker.ru/wp-content/uploads/2019/10/6-priznakov-pishchevoj-allergii-kotorye-nelzya-ignorirovat_1570182964-800x400.jpg
+
+
 #### Не мифицированные файлы
 
 Некоторые файлы не минфицированны, а некоторые еще и содержат постфикс: min
