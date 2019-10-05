@@ -14,9 +14,9 @@
 - [Network har file](files/with_throttling/lifehacker.ru.har)
 - [Performance](files/with_throttling/Profile-20191005T162330.json)
 
-### описание неоптимальных мест при загрузке ресурсов со скриншотами
+### Описание неоптимальных мест при загрузке ресурсов со скриншотами
  
-#### дублирование ресурсов
+#### Дублирование ресурсов
   
 | ресурс | кол-во |
 |---|---|
@@ -52,13 +52,13 @@
 - https://cdn.lifehacker.ru/wp-content/uploads/2019/10/6-priznakov-pishchevoj-allergii-kotorye-nelzya-ignorirovat_1570182964-800x400.jpg
 
 
-#### Не мифицированные файлы
+#### Не минифицированные файлы
 
-Некоторые файлы не минфицированны, а некоторые еще и содержат постфикс: min
+Некоторые файлы не минифицированны, а некоторые еще и содержат постфикс: min
 
 ![](media/not_minified_files.png)
 
-пример не минифцированных ресурсов:
+пример не минифицированных ресурсов:
 
 - https://lifehacker.ru/
 - https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,300i,400,400i,500,500i,700,900&subset=cyrillic
@@ -68,9 +68,9 @@
 - https://lifehacker.ru/wp-content/plugins/lh-spoilers/inc/bbspoiler.css?ver=5.1.2
 - https://lifehacker.ru/wp-content/plugins/responsive-lightbox/assets/nivo/themes/default/default.css?ver=1.7.2
 
-#### Комментарии в коде реурсов
+#### Комментарии в коде ресурсов
 
-Также в ресурсах присутвуют закомменченные участки кода, которые хороше бы вырезать при сборке
+Также в ресурсах присутствуют закомменченные участки кода, которые хорошо бы вырезать при сборке
 
 ![](media/comments_in_resources.png)
 
@@ -90,7 +90,7 @@
 
 ![](media/sources_links.png)
 
-### Временя в миллисекундах от начала навигации до требуемых событий
+### Время в миллисекундах от начала навигации до требуемых событий
 
 | Событие | времся, мс |
 |---|---|
@@ -102,7 +102,7 @@
 
 ![](media/performance_loading.png)
 
-### объёмы неиспользованных в ходе загрузки страницы CSS и JS в килобайтах
+### Объемы неиспользованных в ходе загрузки страницы CSS и JS в килобайтах
   
 ![](media/coverage.png)
 
